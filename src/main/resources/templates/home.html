@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+      layout:decorate="template1">
+
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+
+</head>
+<body>
+<div layout:fragment="content1">
+    <h1 class="text-white">Page title</h1>
+
+    <div
+            class="bg-image"
+            style="
+    background-image: url('https://smart.servier.com/wp-content/uploads/2016/10/hopital.png');
+    height: 100vh;
+  "
+    >
+        <div class="mask mask-custom"></div>
+    </div>
+
+</div>
+
+</body>
+</html>
